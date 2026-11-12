@@ -1,0 +1,29 @@
+// Identidade visual iRede — azul do logo (#4F46E5) sobre o tema minima.
+
+$irede-blue: #4f46e5;
+$irede-blue-dark: #3730a3;
+
+a {
+  color: $irede-blue;
+
+  &:visited {
+    color: $irede-blue-dark;
+  }
+
+  &:hover {
+    color: $irede-blue-dark;
+  }
+}
+
+.site-title,
+.site-title:visited {
+  color: $irede-blue-dark;
+}
+
+h1, h2, h3 {
+  color: $irede-blue-dark;
+}
+
+table th {
+  background-color: #eef0ff;
+}

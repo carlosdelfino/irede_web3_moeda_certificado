@@ -1,0 +1,31 @@
+# Regras/config de agente — nunca versionar
+.devin/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jekyll (docs/)
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/vendor/
+docs/.bundle/
+.sass-cache/
+
+# Python / Node / builds
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+dist/
+
+# Logs, SO e editores
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

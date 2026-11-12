@@ -1,0 +1,16 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/carlosdelfino/irede_web3_moeda_certificado_backend.git
+	branch = main
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/carlosdelfino/irede_web3_moeda_certificado_frontend.git
+	branch = main
+[submodule "frontend_dashboard"]
+	path = frontend_dashboard
+	url = https://github.com/carlosdelfino/irede_web3_moeda_certificado_frontend_dashboard.git
+	branch = main
+[submodule "smartcontracts"]
+	path = smartcontracts
+	url = https://github.com/carlosdelfino/irede_web3_moeda_certificado_smartcontracts.git
+	branch = main

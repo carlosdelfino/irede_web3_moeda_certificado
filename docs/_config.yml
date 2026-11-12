@@ -1,0 +1,32 @@
+title: "iRede — Certificados & iRede.c"
+description: >-
+  Sistema de emissão de certificados de participação dos Residentes e Alunos
+  do iRede, com registro na blockchain Polygon e moeda utilitária
+  Utility iRede Coin (iRede.c).
+lang: pt-BR
+baseurl: "/irede_web3_moeda_certificado"
+url: "https://carlosdelfino.github.io"
+
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - certificados.md
+  - token-irede-c.md
+  - arquitetura.md
+  - requirements/index.md
+
+minima:
+  skin: classic
+  date_format: "%d/%m/%Y"
+
+author:
+  name: Carlos Delfino
+  email: consultoria@carlosdelfino.eti.br
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
