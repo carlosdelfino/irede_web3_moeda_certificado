@@ -1,0 +1,9 @@
+/* Keep every page reachable when scripting is unavailable. */
+.menu-toggle, .document-sidebar > .eyebrow, #page-toc { display: none; }
+.prose table { display: block; overflow-x: auto; }
+@media (max-width: 680px) {
+  .header-inner { height: auto; flex-wrap: wrap; padding-block: 14px; }
+  .site-navigation { display: flex; flex-wrap: wrap; position: static; width: 100%; gap: 8px 16px; padding: 0; border: 0; box-shadow: none; background: none; }
+  .site-navigation > a { padding-block: 7px; font-size: 10px; }
+  .site-navigation .nav-source { margin: 0; padding: 6px 10px; }
+}
