@@ -2,28 +2,25 @@
 layout: page
 title: Arquitetura
 permalink: /arquitetura/
+heading: "Tecnologia que conecta a jornada."
+eyebrow: "03 / Por dentro do ecossistema"
+description: "Quatro módulos independentes, uma proposta integrada: conectar participação, certificados e moeda utilitária na Web 3."
+next_url: /requirements/
+next_label: "Explorar os requisitos"
 ---
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Arquitetura&fontSize=36&fontAlignY=35&animation=twinkling)
-
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=carlosdelfino.iRede.docs_arquitetura)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-![Language: Portuguese](https://img.shields.io/badge/Language-Portuguese-brightgreen.svg)
-![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
-
-# Arquitetura do Projeto
 
 O projeto é organizado como um **repositório principal de documentação e
 orquestração** com **quatro submódulos Git** independentes, um por módulo.
 
-```
-irede_web3_moeda_certificado (repo principal — este site)
-├── backend/              → submódulo: API e serviços
-├── frontend/             → submódulo: app do participante
-├── frontend_dashboard/   → submódulo: painel administrativo
-├── smartcontracts/       → submódulo: token iRede.c + registro (Polygon)
-└── docs/                 → documentação (Jekyll → GitHub Pages)
-```
+<div class="architecture-flow">
+  <div><span>01 / EXPERIÊNCIA</span><h3>Participante</h3><p>O frontend apresenta a jornada, os certificados, os desafios e o saldo de iRede.c.</p></div>
+  <div><span>02 / ORQUESTRAÇÃO</span><h3>API e serviços</h3><p>O backend conecta as regras do programa à emissão e à integração com a blockchain.</p></div>
+  <div><span>03 / OPERAÇÃO</span><h3>Administração</h3><p>O dashboard reúne a gestão de participantes, etapas, emissões e parâmetros.</p></div>
+  <div><span>04 / REGISTRO</span><h3>Smart contracts</h3><p>Os contratos na Polygon deverão implementar o token iRede.c e o registro de certificados.</p></div>
+</div>
+
+> Esta é a arquitetura prevista. Os módulos estão em fase de documentação,
+> e as integrações serão detalhadas nos requisitos antes da implementação.
 
 ## Papel de cada módulo
 
@@ -51,11 +48,3 @@ irede_web3_moeda_certificado (repo principal — este site)
 - [Frontend](https://github.com/carlosdelfino/irede_web3_moeda_certificado_frontend)
 - [Dashboard](https://github.com/carlosdelfino/irede_web3_moeda_certificado_frontend_dashboard)
 - [Smart Contracts](https://github.com/carlosdelfino/irede_web3_moeda_certificado_smartcontracts)
-
-## Changelog
-
-| Data | Versão | Descrição |
-|---|---|---|
-| 2026-11-12 | 0.1.0 | Documento inicial |
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling)

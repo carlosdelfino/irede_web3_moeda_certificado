@@ -7,19 +7,20 @@ lang: pt-BR
 baseurl: "/irede_web3_moeda_certificado"
 url: "https://carlosdelfino.github.io"
 
-theme: minima
+# Layouts e identidade visual próprios, sem dependência do tema Minima.
 plugins:
   - jekyll-seo-tag
 
-header_pages:
-  - certificados.md
-  - token-irede-c.md
-  - arquitetura.md
-  - requirements/index.md
-
-minima:
-  skin: classic
-  date_format: "%d/%m/%Y"
+repository_url: "https://github.com/carlosdelfino/irede_web3_moeda_certificado"
+navigation:
+  - title: Certificados
+    url: /certificados/
+  - title: iRede.c
+    url: /token-irede-c/
+  - title: Arquitetura
+    url: /arquitetura/
+  - title: Requisitos
+    url: /requirements/
 
 author:
   name: Carlos Delfino
@@ -30,3 +31,4 @@ exclude:
   - Gemfile.lock
   - vendor/
   - README.md
+  - "Desafios Web 3.0 em Realidade Virtual - Curso de Web 3.0.pdf"

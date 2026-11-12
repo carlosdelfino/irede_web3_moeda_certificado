@@ -46,7 +46,7 @@ git submodule update --init --recursive
 
 ## Documentação e site
 
-O site do projeto (Jekyll, tema minima) fica em `docs/` e é publicado no
+O site do projeto (Jekyll, tema próprio inspirado na identidade iRede e na Web 3) fica em `docs/` e é publicado no
 branch `gh-pages` pelo GitHub Actions
 (`.github/workflows/jekyll-gh-pages.yml`):
 

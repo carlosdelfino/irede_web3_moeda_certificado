@@ -2,21 +2,21 @@
 layout: page
 title: Certificados
 permalink: /certificados/
+heading: "Certificados de participação"
+eyebrow: "01 / Reconhecimento verificável"
+description: "Uma conquista merece uma prova. Conheça a proposta de emissão e verificação dos certificados de Residentes e Alunos do iRede."
+next_url: /token-irede-c/
+next_label: "Explorar o iRede.c"
 ---
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Certificados&fontSize=36&fontAlignY=35&animation=twinkling)
+A proposta é que cada Residente e Aluno do iRede receba um **certificado de
+participação** ao concluir etapas da sua jornada. O sistema deverá emitir o
+documento e permitir, de forma opcional, o **registro do seu hash na blockchain
+Polygon** para posterior conferência de integridade e do registro do emissor.
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=carlosdelfino.iRede.docs_certificados)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-![Language: Portuguese](https://img.shields.io/badge/Language-Portuguese-brightgreen.svg)
-![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
-
-# Certificados de Participação
-
-Cada Residente e Aluno do iRede recebe um **certificado de participação** ao
-concluir etapas da sua jornada. O certificado é emitido pelo sistema e pode ser
-**registrado na blockchain Polygon**, garantindo prova de autenticidade,
-imutabilidade e verificação pública.
+> O projeto está em definição de requisitos. O registro do hash permite
+> conferir se o documento corresponde ao conteúdo registrado; a validação do
+> emissor e as regras de revogação também fazem parte da solução prevista.
 
 ## Como funciona
 
@@ -36,11 +36,3 @@ A emissão e o registro on-chain de certificados podem consumir **iRede.c**,
 a moeda utilitária que o participante acumula ao longo das etapas.
 As regras de precificação serão detalhadas nos
 [requisitos]({{ 'requirements/' | relative_url }}).
-
-## Changelog
-
-| Data | Versão | Descrição |
-|---|---|---|
-| 2026-11-12 | 0.1.0 | Documento inicial |
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling)

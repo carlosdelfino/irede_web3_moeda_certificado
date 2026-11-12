@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div><a class="brand footer-brand" href="{{ '/' | relative_url }}"><span class="brand-logo"><img src="{{ '/imgs/iRede-Logo.png' | relative_url }}" alt="iRede — Início" width="132" height="66" loading="lazy"></span><span class="brand-label">LAB / WEB 3</span></a><p>Conhecimento que conecta.<br>Conquistas que acompanham você.</p></div>
+      <div class="footer-pages"><span class="eyebrow">Explore o projeto</span>{% for item in site.navigation %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}</div>
+      <div class="footer-program"><span class="eyebrow">Aprenda. Construa. Transforme.</span><p>Conheça a Capacitação Web 3.0<br>da Residência em TIC 29.</p><a href="https://web3.irede.org.br/" target="_blank" rel="noopener noreferrer">Explorar a capacitação <span aria-hidden="true">↗</span><span class="sr-only"> (nova aba)</span></a></div>
+    </div>
+    <div class="institutional-links" aria-label="Sites institucionais">
+      <span class="eyebrow">Conexões do ecossistema</span>
+      <a href="https://irede.org.br/" target="_blank" rel="noopener noreferrer">iRede <span aria-hidden="true">↗</span><span class="sr-only"> (site oficial, nova aba)</span></a>
+      <a href="https://softex.br/" target="_blank" rel="noopener noreferrer">Softex <span aria-hidden="true">↗</span><span class="sr-only"> (site oficial, nova aba)</span></a>
+      <a class="mcti-link" href="https://www.gov.br/mcti/pt-br" target="_blank" rel="noopener noreferrer"><strong>MCTI</strong><span>Ministério da Ciência,<br>Tecnologia e Inovação</span><span aria-hidden="true">↗</span><span class="sr-only"> (site oficial, nova aba)</span></a>
+      <a href="https://web3.irede.org.br/" target="_blank" rel="noopener noreferrer"><span class="institutional-program-label">Capacitação Web 3 <small>TIC 29</small></span><span aria-hidden="true">↗</span><span class="sr-only"> (site oficial, nova aba)</span></a>
+    </div>
+    <div class="footer-bottom"><span>© {{ 'now' | date: '%Y' }} · Projeto iRede Certificados & iRede.c</span><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Conteúdo sob CC BY-SA 4.0<span class="sr-only"> (nova aba)</span></a><a href="#conteudo">Voltar ao topo ↑</a></div>
+  </div>
+</footer>

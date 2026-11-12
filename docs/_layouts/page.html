@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section class="document-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Você está em"><a href="{{ '/' | relative_url }}">O projeto</a><span aria-hidden="true">/</span><span>{{ page.title }}</span></nav>
+    <span class="eyebrow">{{ page.eyebrow | default: 'Documentação / Web 3' }}</span>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <div class="document-decoration" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+</section>
+<div class="container document-grid">
+  <aside class="document-sidebar"><span class="eyebrow">Nesta página</span><nav id="page-toc" aria-label="Seções desta página"></nav><div class="sidebar-note"><span class="status-dot"></span> Em construção<p>Proposta em fase de documentação e definição de requisitos.</p></div></aside>
+  <article class="prose">{{ content }}</article>
+</div>
+<section class="document-next container"><div><span class="eyebrow">Continue explorando</span><h2>Uma rede de possibilidades.</h2></div><a class="button button-purple" href="{{ page.next_url | default: '/arquitetura/' | relative_url }}">{{ page.next_label | default: 'Conhecer a arquitetura' }} <span aria-hidden="true">↗</span></a></section>
